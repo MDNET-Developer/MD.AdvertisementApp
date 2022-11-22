@@ -1,0 +1,12 @@
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Common\bin\Debug\net5.0\MD.AdvertisementApp.Common.deps.json
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Common\bin\Debug\net5.0\MD.AdvertisementApp.Common.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Common\bin\Debug\net5.0\MD.AdvertisementApp.Common.pdb
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Common\obj\Debug\net5.0\MD.AdvertisementApp.Common.csproj.AssemblyReference.cache
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Common\obj\Debug\net5.0\MD.AdvertisementApp.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Common\obj\Debug\net5.0\MD.AdvertisementApp.Common.AssemblyInfoInputs.cache
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Common\obj\Debug\net5.0\MD.AdvertisementApp.Common.AssemblyInfo.cs
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Common\obj\Debug\net5.0\MD.AdvertisementApp.Common.csproj.CoreCompileInputs.cache
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Common\obj\Debug\net5.0\MD.AdvertisementApp.Common.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Common\obj\Debug\net5.0\refint\MD.AdvertisementApp.Common.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Common\obj\Debug\net5.0\MD.AdvertisementApp.Common.pdb
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Common\obj\Debug\net5.0\ref\MD.AdvertisementApp.Common.dll

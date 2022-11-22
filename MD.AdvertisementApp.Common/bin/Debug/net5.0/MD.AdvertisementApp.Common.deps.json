@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MD.AdvertisementApp.Common/1.0.0": {
+        "runtime": {
+          "MD.AdvertisementApp.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MD.AdvertisementApp.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
