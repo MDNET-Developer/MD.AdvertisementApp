@@ -1,0 +1,12 @@
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Entities\bin\Debug\net5.0\MD.AdvertisementApp.Entities.deps.json
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Entities\bin\Debug\net5.0\MD.AdvertisementApp.Entities.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Entities\bin\Debug\net5.0\MD.AdvertisementApp.Entities.pdb
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Entities\obj\Debug\net5.0\MD.AdvertisementApp.Entities.csproj.AssemblyReference.cache
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Entities\obj\Debug\net5.0\MD.AdvertisementApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Entities\obj\Debug\net5.0\MD.AdvertisementApp.Entities.AssemblyInfoInputs.cache
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Entities\obj\Debug\net5.0\MD.AdvertisementApp.Entities.AssemblyInfo.cs
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Entities\obj\Debug\net5.0\MD.AdvertisementApp.Entities.csproj.CoreCompileInputs.cache
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Entities\obj\Debug\net5.0\MD.AdvertisementApp.Entities.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Entities\obj\Debug\net5.0\refint\MD.AdvertisementApp.Entities.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Entities\obj\Debug\net5.0\MD.AdvertisementApp.Entities.pdb
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Entities\obj\Debug\net5.0\ref\MD.AdvertisementApp.Entities.dll

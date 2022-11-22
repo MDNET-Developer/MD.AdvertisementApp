@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD.AdvertisementApp.Common", "MD.AdvertisementApp.Common\MD.AdvertisementApp.Common.csproj", "{ADE59B58-18AB-4D4E-B792-01EB3CF53BBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD.AdvertisementApp.Entities", "MD.AdvertisementApp.Entities\MD.AdvertisementApp.Entities.csproj", "{EC3D4826-B17C-4A8C-967A-83CD6461E50B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{ADE59B58-18AB-4D4E-B792-01EB3CF53BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADE59B58-18AB-4D4E-B792-01EB3CF53BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE59B58-18AB-4D4E-B792-01EB3CF53BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3D4826-B17C-4A8C-967A-83CD6461E50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3D4826-B17C-4A8C-967A-83CD6461E50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3D4826-B17C-4A8C-967A-83CD6461E50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3D4826-B17C-4A8C-967A-83CD6461E50B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
