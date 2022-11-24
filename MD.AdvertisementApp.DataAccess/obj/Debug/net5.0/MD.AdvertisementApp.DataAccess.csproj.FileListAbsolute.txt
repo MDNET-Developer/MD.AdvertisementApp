@@ -1,0 +1,15 @@
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\bin\Debug\net5.0\MD.AdvertisementApp.DataAccess.deps.json
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\bin\Debug\net5.0\MD.AdvertisementApp.DataAccess.runtimeconfig.json
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\bin\Debug\net5.0\MD.AdvertisementApp.DataAccess.runtimeconfig.dev.json
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\bin\Debug\net5.0\MD.AdvertisementApp.DataAccess.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\bin\Debug\net5.0\MD.AdvertisementApp.DataAccess.pdb
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\obj\Debug\net5.0\MD.AdvertisementApp.DataAccess.csproj.AssemblyReference.cache
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\obj\Debug\net5.0\MD.AdvertisementApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\obj\Debug\net5.0\MD.AdvertisementApp.DataAccess.AssemblyInfoInputs.cache
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\obj\Debug\net5.0\MD.AdvertisementApp.DataAccess.AssemblyInfo.cs
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\obj\Debug\net5.0\MD.AdvertisementApp.DataAccess.csproj.CoreCompileInputs.cache
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\obj\Debug\net5.0\MD.AdvertisementApp.DataAccess.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\obj\Debug\net5.0\refint\MD.AdvertisementApp.DataAccess.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\obj\Debug\net5.0\MD.AdvertisementApp.DataAccess.pdb
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\obj\Debug\net5.0\MD.AdvertisementApp.DataAccess.genruntimeconfig.cache
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\obj\Debug\net5.0\ref\MD.AdvertisementApp.DataAccess.dll

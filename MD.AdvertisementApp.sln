@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD.AdvertisementApp.Common", "MD.AdvertisementApp.Common\MD.AdvertisementApp.Common.csproj", "{ADE59B58-18AB-4D4E-B792-01EB3CF53BBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MD.AdvertisementApp.Common", "MD.AdvertisementApp.Common\MD.AdvertisementApp.Common.csproj", "{ADE59B58-18AB-4D4E-B792-01EB3CF53BBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD.AdvertisementApp.Entities", "MD.AdvertisementApp.Entities\MD.AdvertisementApp.Entities.csproj", "{EC3D4826-B17C-4A8C-967A-83CD6461E50B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MD.AdvertisementApp.Entities", "MD.AdvertisementApp.Entities\MD.AdvertisementApp.Entities.csproj", "{EC3D4826-B17C-4A8C-967A-83CD6461E50B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD.AdvertisementApp.DataAccess", "MD.AdvertisementApp.DataAccess\MD.AdvertisementApp.DataAccess.csproj", "{8330E7D9-CCDC-4CDC-AD65-7283820319AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EC3D4826-B17C-4A8C-967A-83CD6461E50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC3D4826-B17C-4A8C-967A-83CD6461E50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC3D4826-B17C-4A8C-967A-83CD6461E50B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8330E7D9-CCDC-4CDC-AD65-7283820319AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8330E7D9-CCDC-4CDC-AD65-7283820319AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8330E7D9-CCDC-4CDC-AD65-7283820319AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8330E7D9-CCDC-4CDC-AD65-7283820319AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
