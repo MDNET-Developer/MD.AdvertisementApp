@@ -1763,6 +1763,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "MD.AdvertisementApp.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MD.AdvertisementApp.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MD.AdvertisementApp.Entities.dll": {}
+        }
       }
     }
   },
@@ -5988,10 +5998,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "MD.AdvertisementApp.Entities/1.0.0": {
+      "type": "project",
+      "path": "../MD.AdvertisementApp.Entities/MD.AdvertisementApp.Entities.csproj",
+      "msbuildProject": "../MD.AdvertisementApp.Entities/MD.AdvertisementApp.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "MD.AdvertisementApp.Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.12",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.12"
@@ -6030,7 +6046,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\MyProjects\\NEW\\MD.AdvertisementApp\\MD.AdvertisementApp.Entities\\MD.AdvertisementApp.Entities.csproj": {
+              "projectPath": "D:\\MyProjects\\NEW\\MD.AdvertisementApp\\MD.AdvertisementApp.Entities\\MD.AdvertisementApp.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

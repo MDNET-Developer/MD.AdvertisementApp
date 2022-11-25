@@ -13,3 +13,6 @@ D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\obj\Debug\n
 D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\obj\Debug\net5.0\MD.AdvertisementApp.DataAccess.pdb
 D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\obj\Debug\net5.0\MD.AdvertisementApp.DataAccess.genruntimeconfig.cache
 D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\obj\Debug\net5.0\ref\MD.AdvertisementApp.DataAccess.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\bin\Debug\net5.0\MD.AdvertisementApp.Entities.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\bin\Debug\net5.0\MD.AdvertisementApp.Entities.pdb
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.DataAccess\obj\Debug\net5.0\MD.AdvertisementApp.DataAccess.csproj.CopyComplete
