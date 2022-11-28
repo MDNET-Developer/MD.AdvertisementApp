@@ -17,3 +17,5 @@ D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Business\obj\Debug\net
 D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Business\obj\Debug\net5.0\refint\MD.AdvertisementApp.Business.dll
 D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Business\obj\Debug\net5.0\MD.AdvertisementApp.Business.pdb
 D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Business\obj\Debug\net5.0\ref\MD.AdvertisementApp.Business.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Business\bin\Debug\net5.0\MD.AdvertisementApp.Dtos.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.Business\bin\Debug\net5.0\MD.AdvertisementApp.Dtos.pdb

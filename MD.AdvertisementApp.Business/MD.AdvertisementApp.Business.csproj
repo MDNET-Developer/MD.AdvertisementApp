@@ -5,7 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.4.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MD.AdvertisementApp.Common\MD.AdvertisementApp.Common.csproj" />
     <ProjectReference Include="..\MD.AdvertisementApp.DataAccess\MD.AdvertisementApp.DataAccess.csproj" />
+    <ProjectReference Include="..\MD.AdvertisementApp.Dtos\MD.AdvertisementApp.Dtos.csproj" />
   </ItemGroup>
 
 </Project>

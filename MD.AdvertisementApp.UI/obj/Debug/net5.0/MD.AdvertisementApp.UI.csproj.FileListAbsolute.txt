@@ -82,3 +82,8 @@ D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\obj\Debug\net5.0\re
 D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\obj\Debug\net5.0\MD.AdvertisementApp.UI.pdb
 D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\obj\Debug\net5.0\MD.AdvertisementApp.UI.genruntimeconfig.cache
 D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\obj\Debug\net5.0\ref\MD.AdvertisementApp.UI.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\bin\Debug\net5.0\AutoMapper.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\bin\Debug\net5.0\MD.AdvertisementApp.Dtos.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\bin\Debug\net5.0\MD.AdvertisementApp.Dtos.pdb
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\bin\Debug\net5.0\FluentValidation.dll
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll

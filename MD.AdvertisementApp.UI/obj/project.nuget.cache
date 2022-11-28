@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ewlRspPx5+15Ivza3Vqzt9+nkSGR+6fFoHhyyHx0mRE2gm62M8IlGS5fVlnFBq8cXhY7nEjpR7IR+ppvrnKwRQ==",
+  "dgSpecHash": "tbJcmZzeZT/IZr3B7bKRt34bSJAgy1CMR33i8ukjyquf8cTjmuwtJBEgPCLRT3bPp57oAR5XZ/+1b/1LnXd8uQ==",
   "success": true,
   "projectFilePath": "D:\\MyProjects\\NEW\\MD.AdvertisementApp\\MD.AdvertisementApp.UI\\MD.AdvertisementApp.UI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Murad\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Murad\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\Murad\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.4.0\\fluentvalidation.dependencyinjectionextensions.11.4.0.nupkg.sha512",
     "C:\\Users\\Murad\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Murad\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Murad\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
