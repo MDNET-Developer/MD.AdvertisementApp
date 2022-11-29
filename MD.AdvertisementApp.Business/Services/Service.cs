@@ -1,4 +1,6 @@
-﻿using MD.AdvertisementApp.Business.Interfaces;
+﻿using AutoMapper;
+using FluentValidation;
+using MD.AdvertisementApp.Business.Interfaces;
 using MD.AdvertisementApp.Common;
 using System;
 using System.Collections.Generic;
@@ -13,6 +15,8 @@ namespace MD.AdvertisementApp.Business.Services
         where UpdateDto : class, new()
         where ListDto : class, new()
     {
+        private readonly IMapper _mapper;
+        private readonly IValidator<CreateDto> _createDtoValidator;
         public Task<IResponse<CreateDto>> CreateAsync(CreateDto dto)
         {
             throw new NotImplementedException();
