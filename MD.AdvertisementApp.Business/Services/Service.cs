@@ -42,7 +42,11 @@ namespace MD.AdvertisementApp.Business.Services
                 await _uow.GetRepository<T>().Create(createdEntity);
                 return new Response<CreateDto>(ResponseType.Succsess, dto);
             }
-            return new Response<CreateDto>(dto, result.ConvertToCustomValidationError());
+            else
+            {
+                return new Response<CreateDto>(ResponseType.ValidationError,dto,result.ConvertToCustomValidationError());
+            }
+
         }
 
         public Task<IResponse<List<ListDto>>> GetAllAsync()
