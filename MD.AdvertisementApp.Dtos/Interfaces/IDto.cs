@@ -8,5 +8,6 @@ namespace MD.AdvertisementApp.Dtos.Interfaces
 {
     public interface IDto
     {
+
     }
 }
