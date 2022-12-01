@@ -1,5 +1,8 @@
 ﻿using AutoMapper;
 using FluentValidation;
+using MD.AdvertisementApp.Business.Interfaces;
+using MD.AdvertisementApp.Business.Mapping.AutoMapper;
+using MD.AdvertisementApp.Business.Services;
 using MD.AdvertisementApp.Business.ValidationRules;
 using MD.AdvertisementApp.DataAccess.Contexts;
 using MD.AdvertisementApp.DataAccess.UnitOfWork;
@@ -27,13 +30,15 @@ namespace MD.AdvertisementApp.Business.DependencyResolvers.Microsoft
 
             var mapperConfugration = new MapperConfiguration(opt =>
             {
-                //opt.addprofile
+                opt.AddProfile(new ProvidedServiceProfile());
+                //opt.Addprofile
             });
 
             var mapper = mapperConfugration.CreateMapper();
             services.AddSingleton(mapper);
 
             services.AddScoped<IUow, Uow>();
+            services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
 
             services.AddTransient<IValidator<ProvidedServiceCreateDto>, ProvidedServiceCreateDtoValidator>();
             services.AddTransient<IValidator<ProvidedServiceUpdateDto>, ProvidedServiceUpdateDtoValidator>();
