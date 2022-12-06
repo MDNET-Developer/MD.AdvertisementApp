@@ -2,6 +2,7 @@
 using MD.AdvertisementApp.DataAccess.Interface;
 using MD.AdvertisementApp.DataAccess.Repositories;
 using MD.AdvertisementApp.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using MD.AdvertisementApp.Dtos.ProvidedServiceDtos;
+using MD.AdvertisementApp.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;

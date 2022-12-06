@@ -6,7 +6,7 @@ using MD.AdvertisementApp.Business.Services;
 using MD.AdvertisementApp.Business.ValidationRules;
 using MD.AdvertisementApp.DataAccess.Contexts;
 using MD.AdvertisementApp.DataAccess.UnitOfWork;
-using MD.AdvertisementApp.Dtos.ProvidedServiceDtos;
+using MD.AdvertisementApp.Dtos;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

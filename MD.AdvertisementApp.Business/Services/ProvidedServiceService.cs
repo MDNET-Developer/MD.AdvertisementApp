@@ -2,7 +2,7 @@
 using FluentValidation;
 using MD.AdvertisementApp.Business.Interfaces;
 using MD.AdvertisementApp.DataAccess.UnitOfWork;
-using MD.AdvertisementApp.Dtos.ProvidedServiceDtos;
+using MD.AdvertisementApp.Dtos;
 using MD.AdvertisementApp.Entities;
 using System;
 using System.Collections.Generic;

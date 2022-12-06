@@ -1,5 +1,7 @@
 ﻿using MD.AdvertisementApp.Business.Interfaces;
+using MD.AdvertisementApp.UI.Extensions;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace MD.AdvertisementApp.UI.Controllers
 {
@@ -12,10 +14,10 @@ namespace MD.AdvertisementApp.UI.Controllers
             _providedServiceService = providedServiceService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var data = _providedServiceService.GetAllAsync();
-            return View();
+            var data =await _providedServiceService.GetAllAsync();
+            return this.ResponseView(data);
         }
     }
 }
