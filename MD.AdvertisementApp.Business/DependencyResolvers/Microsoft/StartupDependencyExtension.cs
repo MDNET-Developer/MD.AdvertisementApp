@@ -7,6 +7,7 @@ using MD.AdvertisementApp.Business.ValidationRules;
 using MD.AdvertisementApp.DataAccess.Contexts;
 using MD.AdvertisementApp.DataAccess.UnitOfWork;
 using MD.AdvertisementApp.Dtos;
+using MD.AdvertisementApp.Dtos.AppUserDtos;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -32,6 +33,7 @@ namespace MD.AdvertisementApp.Business.DependencyResolvers.Microsoft
             {
                 opt.AddProfile(new ProvidedServiceProfile());
                 opt.AddProfile(new AdvertisementProfile());
+                opt.AddProfile(new AppUserProfile());
                 //opt.Addprofile
             });
 
@@ -41,11 +43,15 @@ namespace MD.AdvertisementApp.Business.DependencyResolvers.Microsoft
             services.AddScoped<IUow, Uow>();
             services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
             services.AddScoped<IAdvertisementService, AdvertisementService>();
+            services.AddScoped<IAppUserService, AppUserService>();
+
 
             services.AddTransient<IValidator<ProvidedServiceCreateDto>, ProvidedServiceCreateDtoValidator>();
             services.AddTransient<IValidator<ProvidedServiceUpdateDto>, ProvidedServiceUpdateDtoValidator>();
             services.AddTransient<IValidator<AdvertisementCreateDto>, AdvertisementCreateDtoValidator>();
             services.AddTransient<IValidator<AdvertisementUpdateDto>, AdvertisementUpdateDtoValidator>();
+            services.AddTransient<IValidator<AppUserCreateDto>, AppUserCreateDtoValidator>();
+            services.AddTransient<IValidator<AppUserUpdateDto>, AppUserUpdateDtoValidator>();
         }
     }
 }
