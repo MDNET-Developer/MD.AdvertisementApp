@@ -1,4 +1,9 @@
+using FluentValidation;
 using MD.AdvertisementApp.Business.DependencyResolvers.Microsoft;
+using MD.AdvertisementApp.Business.ValidationRules;
+using MD.AdvertisementApp.Dtos.AppUserDtos;
+using MD.AdvertisementApp.UI.Models;
+using MD.AdvertisementApp.UI.ValidationRules;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -25,8 +30,8 @@ namespace MD.AdvertisementApp.UI
         {
             services.AddControllersWithViews();
             services.AddDepencies(Configuration);
-
-
+            //UI layer oldugu ucun bunu strapupda yazdiq
+            services.AddTransient<IValidator<UserCreateModel>, UserCreateModelValidator>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

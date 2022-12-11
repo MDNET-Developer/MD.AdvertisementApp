@@ -20,21 +20,21 @@ using MD.AdvertisementApp.UI;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\Views\_ViewImports.cshtml"
-using MD.AdvertisementApp.UI.Models;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
 #line 3 "D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\Views\_ViewImports.cshtml"
 using MD.AdvertisementApp.Dtos;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\Views\_ViewImports.cshtml"
+using MD.AdvertisementApp.UI.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e668359ad6c7b4ec5aa2c741cfe883747e6d8a16", @"/Views/Shared/_Layout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9b4d0455ee2d1481cf4cbea682efe95d24aececb", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4daefef28f7d6b6d3e13b33392a3a61e345583ad", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

@@ -165,3 +165,4 @@ D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\bin\Debug\net5.0\ru
 D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\Shared\_mainLayout.cshtml.g.cs
 D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\MotherPage\Index.cshtml.g.cs
 D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\MotherPage\HR.cshtml.g.cs
+D:\MyProjects\NEW\MD.AdvertisementApp\MD.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\Account\SignUp.cshtml.g.cs
