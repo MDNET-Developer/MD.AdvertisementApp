@@ -4,6 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using FluentValidation;
+using AutoMapper;
+using MD.AdvertisementApp.UI.AutoMapper;
+using MD.AdvertisementApp.Dtos.AppUserDtos;
+using MD.AdvertisementApp.UI.Extensions;
+using MD.AdvertisementApp.Common.Enums;
 
 namespace MD.AdvertisementApp.UI.Controllers
 {
@@ -11,10 +16,14 @@ namespace MD.AdvertisementApp.UI.Controllers
     {
         private readonly IGenderService _genderService;
         private readonly IValidator<UserCreateModel> _userCreateModelValidator;
-        public AccountController(IGenderService genderService, IValidator<UserCreateModel> userCreateModelValidator)
+        private readonly IAppUserService _appUserService;
+        private readonly IMapper _mapper;
+        public AccountController(IGenderService genderService, IValidator<UserCreateModel> userCreateModelValidator, IMapper mapper, IAppUserService appUserService)
         {
             _genderService = genderService;
             _userCreateModelValidator = userCreateModelValidator;
+            _mapper = mapper;
+            _appUserService = appUserService;
         }
 
         public async Task<IActionResult> SignUp()
@@ -32,7 +41,9 @@ namespace MD.AdvertisementApp.UI.Controllers
             var result = _userCreateModelValidator.Validate(model);
             if (result.IsValid)
             {
-                return View();
+                var mappeddata = _mapper.Map<AppUserCreateDto>(model);
+                var createResponse = await _appUserService.CreateAppUserWithRoleAsync(mappeddata, (int)RoleType.Member);
+                return this.ResponseRedirectToAction(createResponse, "Index", "MotherPage");
             }
             foreach (var item in result.Errors)
             {

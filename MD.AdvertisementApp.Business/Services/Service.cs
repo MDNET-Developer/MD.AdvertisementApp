@@ -40,6 +40,7 @@ namespace MD.AdvertisementApp.Business.Services
             {
                 var createdEntity = _mapper.Map<T>(dto);
                 await _uow.GetRepository<T>().Create(createdEntity);
+                await _uow.SaveChanges();
                 return new Response<CreateDto>(ResponseType.Succsess, dto);
             }
             else
@@ -84,6 +85,7 @@ namespace MD.AdvertisementApp.Business.Services
             else
             {
                 _uow.GetRepository<T>().Remove(data);
+                await _uow.SaveChanges();
                 return new Response(ResponseType.Succsess);
             }
 
@@ -105,6 +107,7 @@ namespace MD.AdvertisementApp.Business.Services
                 {
                     var mappedData = _mapper.Map<T>(dto);
                     _uow.GetRepository<T>().Update(mappedData, getdata);
+                    await _uow.SaveChanges();
                     return new Response<UpdateDto>(ResponseType.Succsess, dto);
                 }
             }

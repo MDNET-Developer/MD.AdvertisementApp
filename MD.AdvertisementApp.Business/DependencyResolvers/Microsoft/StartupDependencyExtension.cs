@@ -29,19 +29,6 @@ namespace MD.AdvertisementApp.Business.DependencyResolvers.Microsoft
                 opt.UseSqlServer(configuration.GetConnectionString("Local"));
             });
 
-
-            var mapperConfugration = new MapperConfiguration(opt =>
-            {
-                opt.AddProfile(new ProvidedServiceProfile());
-                opt.AddProfile(new AdvertisementProfile());
-                opt.AddProfile(new AppUserProfile());
-                opt.AddProfile(new GenderProfile());
-                //opt.Addprofile
-            });
-
-            var mapper = mapperConfugration.CreateMapper();
-            services.AddSingleton(mapper);
-
             services.AddScoped<IUow, Uow>();
             services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
             services.AddScoped<IAdvertisementService, AdvertisementService>();

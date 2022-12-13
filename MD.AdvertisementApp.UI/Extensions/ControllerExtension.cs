@@ -7,7 +7,7 @@ namespace MD.AdvertisementApp.UI.Extensions
     public static class ControllerExtension
     {
         //Misal ucun insert sehifesine daixil olub verileni post edirik daha sonra geriye umumen table-da data-larin list oldugu sehifeye getmek isteyende RedirectToAction olub diger sehifeye kecid edirik. Bu zaman datanin kecidi bas verir ki verileni bazaya post edirik. Bunu eden zaman qarsimiza 3 hall cixa biler.Birinci hall NotFound, ikinci hall ValidationError, ucuncu hallda ise ugurlu olaraq diger sehifeye kecid edecek.
-        public static IActionResult ResponseRedirectToAction<T>(this Controller controller,IResponse<T> response, string actionName)
+        public static IActionResult ResponseRedirectToAction<T>(this Controller controller,IResponse<T> response, string actionName , string controllerName)
         {
             if (response.ResponseType == ResponseType.NotFound)
                 return controller.NotFound();
@@ -20,7 +20,7 @@ namespace MD.AdvertisementApp.UI.Extensions
                 }
                 return controller.View(response.Data);
             }
-            return controller.RedirectToAction(actionName);
+            return controller.RedirectToAction(actionName,controllerName);
         }
         //GetById metoduna benzeyir
         //Geriye basqa bir action dondermir deyene action name ehtiyac yoxdur burada. return View(); metodu benzeri sistemdir bir nov
