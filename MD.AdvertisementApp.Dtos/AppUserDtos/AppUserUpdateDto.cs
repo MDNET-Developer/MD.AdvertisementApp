@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MD.AdvertisementApp.Dtos.AppUserDtos
+namespace MD.AdvertisementApp.Dtos
 {
     public class AppUserUpdateDto : IUpdateDto
     {

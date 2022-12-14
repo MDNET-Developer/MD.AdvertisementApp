@@ -1,5 +1,5 @@
 ﻿using MD.AdvertisementApp.Common;
-using MD.AdvertisementApp.Dtos.AppUserDtos;
+using MD.AdvertisementApp.Dtos;
 using MD.AdvertisementApp.Entities;
 using System;
 using System.Collections.Generic;

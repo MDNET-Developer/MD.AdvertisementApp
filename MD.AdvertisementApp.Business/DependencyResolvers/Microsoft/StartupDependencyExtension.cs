@@ -7,7 +7,6 @@ using MD.AdvertisementApp.Business.ValidationRules;
 using MD.AdvertisementApp.DataAccess.Contexts;
 using MD.AdvertisementApp.DataAccess.UnitOfWork;
 using MD.AdvertisementApp.Dtos;
-using MD.AdvertisementApp.Dtos.AppUserDtos;
 using MD.AdvertisementApp.Dtos.GenderDtos;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -44,6 +43,7 @@ namespace MD.AdvertisementApp.Business.DependencyResolvers.Microsoft
             services.AddTransient<IValidator<AppUserUpdateDto>, AppUserUpdateDtoValidator>();
             services.AddTransient<IValidator<GenderUpdateDto>, GenderUpdateDtoValidator>();
             services.AddTransient<IValidator<GenderCreateDto>, GenderCreateDtoValidator>();
+            services.AddTransient<IValidator<AppUserLogInDto>, AppUserLogInDtoValidator>();
         }
     }
 }

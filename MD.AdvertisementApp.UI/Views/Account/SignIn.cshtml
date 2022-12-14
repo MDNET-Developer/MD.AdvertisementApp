@@ -1,0 +1,31 @@
+﻿@model AppUserLogInDto
+@{
+    ViewData["Title"] = "SignIn";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+<div class="mt-4">
+
+    <div class="mb-3">
+        <h2>Qediyyat formu</h2>
+    </div>
+    <form asp-action="SignIn" asp-controller="Account">
+
+
+        <div class="mb-3">
+            <input type="text" class="form-control" asp-for="UserName" placeholder="İstifadəçi adınız" />
+        </div>
+
+        <div class="mb-3">
+            <input type="text" class="form-control" asp-for="Password" placeholder="Şifrəniz" />
+        </div>
+
+
+        <button class="form-control btn btn-outline-secondary" type="submit"> Daxil ol</button>
+        <div style="color:darkred" class="text-bg-danger" asp-validation-summary="All">
+        </div>
+
+
+    </form>
+</div>
+

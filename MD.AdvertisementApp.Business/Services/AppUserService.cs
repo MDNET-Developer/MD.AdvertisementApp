@@ -4,7 +4,7 @@ using MD.AdvertisementApp.Business.Extensions;
 using MD.AdvertisementApp.Business.Interfaces;
 using MD.AdvertisementApp.Common;
 using MD.AdvertisementApp.DataAccess.UnitOfWork;
-using MD.AdvertisementApp.Dtos.AppUserDtos;
+using MD.AdvertisementApp.Dtos;
 using MD.AdvertisementApp.Entities;
 using System;
 using System.Collections.Generic;
@@ -16,14 +16,16 @@ namespace MD.AdvertisementApp.Business.Services
 {
     public class AppUserService : Service<AppUserCreateDto, AppUserUpdateDto, AppUserListDto, AppUser>, IAppUserService
     {
+        private readonly IValidator<AppUserLogInDto> _userLoginValidator;
         private readonly IValidator<AppUserCreateDto> _createDtoValidator;
         private readonly IMapper _mapper;
         private readonly IUow _uow;
-        public AppUserService(IMapper mapper, IValidator<AppUserCreateDto> createDtoValidator, IValidator<AppUserUpdateDto> updateDtoValidator, IUow uow) : base(mapper, createDtoValidator, updateDtoValidator, uow)
+        public AppUserService(IMapper mapper, IValidator<AppUserCreateDto> createDtoValidator, IValidator<AppUserUpdateDto> updateDtoValidator, IUow uow, IValidator<AppUserLogInDto> userLoginValidator) : base(mapper, createDtoValidator, updateDtoValidator, uow)
         {
             _createDtoValidator = createDtoValidator;
             _mapper = mapper;
             _uow = uow;
+            _userLoginValidator = userLoginValidator;
         }
 
         public async Task<IResponse<AppUserCreateDto>> CreateAppUserWithRoleAsync(AppUserCreateDto dto , int roleId)
@@ -42,5 +44,11 @@ namespace MD.AdvertisementApp.Business.Services
             }
             return new Response<AppUserCreateDto>(ResponseType.ValidationError,dto, validationResponse.ConvertToCustomValidationError());
         }
+
+        //public async Task<IResponse<AppUserListDto>> CheckUser(AppUserLogInDto dto)
+        //{
+        //    var validationResult = _createDtoValidator.Validate(dto);
+        //    return true;
+        //}
     }
 }
